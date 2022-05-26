@@ -1,0 +1,36 @@
+$h-color: #33c;
+$position-center: 0 auto;
+html {
+  background-image: url(image/background1.jpg);
+  background-size: cover;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+  color: $h-color;
+}
+h2{
+  text-align: center;
+  color: $h-color;
+}
+.block1 {
+  position: relative;
+  margin: $position-center;
+  width: 80%;
+  height: 300px;
+  background-size: cover;
+  background-image: url(image/background2.jpg);
+}
+.block2
+{
+  margin: $position-center;
+  width: 80%;
+  height: 300px;
+  font-size: 20px ;
+}
+.blockinblock{
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

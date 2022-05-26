@@ -1,0 +1,40 @@
+html {
+  background-image: url(image/background1.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #33c;
+}
+
+h2 {
+  text-align: center;
+  color: #33c;
+}
+
+.block1 {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  background-size: cover;
+  background-image: url(image/background2.jpg);
+}
+
+.block2 {
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  font-size: 20px;
+}
+
+.blockinblock {
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=output.css.map */
